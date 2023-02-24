@@ -9,27 +9,54 @@
   <meta name="description" content="ポートフォリオ的なものです。">
   <!-- 以下のCSSファイルを読み込みます -->
   <link href="css/style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Oswald&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <h1>自己紹介ページ</h1>
-  <img src="img/a.png" alt="プロフィール画像">
-  <h2>プロフィール</h2>
-  <p>
-    出身：愛知県<br>
-    好きな食べ物：<br>
-    職業：学生
-  </p>
-  <h2>ひとこと</h2>
-  <p>
-    これから自己紹介ページの作り方を解説していきます。<br>
-    基本的な「HTML」と「CSS」を使ったページになります。<br>
-    初心者でもわかりやすいように、なるべくかみ砕いて、<br>
-    説明しますので、最後までお付き合いください。
-  </p>
-  <a href="p5js-games">FlappyBird</a>
-  <a href="blockgame">BlockGame</a>
-  <a href="ninja">NINJA</a>
+  <h1>Introduction<br></h1>
+
+  <ul class="navi">
+    <li>PROFILE</li>
+    <li>GAME</li>
+    <li>PICTURES</li>
+    <li>COOKING</li>
+  </ul>
+
+  <div class="profile">
+    <img src="img/かえる.png" alt="プロフィール画像">
+    <h2>PROFILE</h2>
+    <ul>
+      <li>出身地：愛知県</li>
+      <li>好きな食べ物：いちご、ちくわ</li>
+      <li>趣味：筋トレ、読書</li>
+    </ul>
+  </div>
+
+  <div class="games">
+    <ul>
+      <li>
+        <img src="img/flappybird.jpg">
+        <h3><a href="p5js-games">FlappyBird</a></h3>
+        <p>障害物をよけて進もう！</p>
+      </li>
+      <li>
+        <img src="img/shooting.jpg">
+        <h3><a href="blockgame">BlockGame</a></h3>
+        <p>空いているところを狙おう！</p>
+      </li>
+      <li>
+        <img src="img/ninja.png">
+        <h3><a href="ninja">NINJA</a></h3>
+        <p>発射した球に乗り移れるぞ！</p>
+      </li>
+    </ul>
+  </div>
+
+
+
+
 
 </body>
 
