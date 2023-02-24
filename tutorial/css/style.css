@@ -1,0 +1,151 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  letter-spacing: 1px;
+  line-height: 0.8;
+}
+
+h1 span {
+  font-size: 15px;
+}
+
+.grobalNavi {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.grobalNavi li {
+  display: inline-block;
+  margin-right: 40px;
+  font-family: 'Oswald', san-serif;
+  font-size: 16px;
+}
+
+.gorbbalNavi li:last-child {
+  margin-right: 0px;
+}
+
+.grobalNavi li a {
+  text-decoration: none;
+}
+
+.mainImage {
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+}
+
+.mainImage img {
+  width: 100%;
+  height: auto;
+}
+
+.aboutSection,
+.newsSection {
+  width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+}
+
+.hStyle {
+  text-align: center;
+  font-size: 11px;
+  margin-bottom: 40px;
+  line-height: 1.2;
+}
+
+.hStyle span {
+  font-size: 35px;
+  font-family: 'Oswald', san-serif;
+  border-bottom: 2px solid #000000;
+}
+
+.aboutSection ul {
+  overflow: hidden;
+  padding: 0;
+}
+
+.aboutSection li {
+  float: left;
+  list-style: none;
+  width: 32%;
+  margin-right: 2%;
+}
+
+.aboutSection li:last-child {
+  margin-right: 0;
+}
+
+.aboutSection li img {
+  width: 100%;
+  height: auto;
+}
+
+.aboutSection h3 {
+  font-size: 25px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  margin: 0;
+}
+
+.aboutSection p {
+  font-size: 14px;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+.newsSection table {
+  width: 100%;
+}
+
+.newsSection th {
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  width: 10%;
+}
+
+.newsSection td {
+  font-size: 14px;
+  border-bottom: 1px solid #dddddd;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  width: 90%;
+}
+
+.instagramBt {
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+}
+
+.instagramBt a {
+  background: #000000;
+  color: #ffffff;
+  display: block;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 11px;
+}

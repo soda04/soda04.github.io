@@ -15,7 +15,7 @@ h1 {
   border-bottom: 3px solid #625f5f;
   margin-right: auto;
   margin-left: auto;
-  width: 60%;
+  width: 80%;
 }
 
 .navi {
@@ -24,14 +24,14 @@ h1 {
 
 .navi li {
   display: inline-block;
-  margin-right: 60px;
+  margin-right: 40px;
   font-family: 'Oswald', sans-serif;
   font-size: 16px;
   margin-bottom: 40px;
 }
 
 .navi li:last-child {
-  margin-right: 40px;
+  margin-right: 30px;
 }
 
 .profile {
@@ -66,6 +66,7 @@ h1 {
   list-style: none;
   width: 30%;
   margin-right: 2%;
+  margin-bottom: 50px;
 }
 
 .games li img {
@@ -74,10 +75,30 @@ h1 {
   margin-bottom: 10px;
 }
 
-.games li h3 {
+.games li h3 a {
+  color: #14915f;
   text-decoration: none;
 }
 
 .games li p {
   font-size: 15px;
+}
+
+.tutorials {
+  width: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 30px;
+}
+
+.tutorials a {
+  color: #109255;
+  display: block;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-decoration: none;
+  border-radius: 4px;
+  font-family: 'Oswald', sans-serif;
+  font-weight: normal;
 }
