@@ -59,17 +59,25 @@ h1 {
   font-weight: none;
 }
 
+.games {
+  margin: 0 auto;
+}
+
 .games li {
   float: left;
   list-style: none;
   width: 30%;
-  margin-right: 2%;
+  margin-right: 5%;
   margin-bottom: 50px;
+}
+
+.games li:last-child {
+  margin-right: 0;
 }
 
 .games li img {
   width: 100%;
-  height: auto;
+  height: 440px;
   margin-bottom: 10px;
 }
 
