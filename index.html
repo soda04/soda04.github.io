@@ -5,63 +5,203 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SODAO.COM</title>
-  <meta name="description" content="ポートフォリオ的なものです。">
-  <!-- 以下のCSSファイルを読み込みます -->
-  <link href="css/style.css" rel="stylesheet">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+  <link rel="stylesheet" href="css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Oswald&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Stick+No+Bills&display=swap" rel="stylesheet">
 </head>
 
 <body>
-  <h1>Introduction<br></h1>
-
-  <ul class="navi">
-    <li>PROFILE</li>
-    <li>GAME</li>
-    <li>PICTURES</li>
-    <li>COOKING</li>
-    <li>TUTORIAL</li>
-  </ul>
-
-  <div class="profile">
-    <img src="img/かえる.png" alt="プロフィール画像">
-    <h2>PROFILE</h2>
-    <ul>
-      <li>出身地：愛知県</li>
-      <li>好きな食べ物：いちご、ちくわ</li>
-      <li>趣味：筋トレ、読書</li>
-    </ul>
-  </div>
-
-  <div class="games">
-    <ul>
-      <li>
-        <img src="img/flappybird.jpg">
-        <h3><a href="p5js-games">FlappyBird</a></h3>
-        <p>障害物をよけて進もう！</p>
-      </li>
-      <li>
-        <img src="img/shooting.jpg">
-        <h3><a href="blockgame">BlockGame</a></h3>
-        <p>空いているところを狙おう！</p>
-      </li>
-      <li>
-        <img src="img/ninja.png">
-        <h3><a href="ninja">NINJA</a></h3>
-        <p>発射した球に乗り移れるぞ！</p>
-      </li>
-    </ul>
-  </div>
-
-  <div class="tutorials">
-    <a href="tutorial/homepages.html">TUTORIAL</a>
-    <a href="NewWeb/index.html">TUTORIAL2</a>
-    <a href="NewWeb_02/index.html">TUTORIAL3</a>
-    <a href="http://192.168.0.8/keizibann">TUTORIAL4</a>
-  </div>
-
+  <main>
+    <header>
+      <div class="logo">
+        <a href="">
+          <img src="img/かえる.png">
+          <h1 class="title">SODAO'S ROOM</h1>
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#profile">PROFILE</a></li>
+          <li><a href="#games">GAMES</a></li>
+          <li><a href="#pictures">PICTURES</a></li>
+          <li><a href="#cooking">COOKING</a></li>
+          <li><a href="#tutorial">TUTORIAL</a></li>
+          <li><a href="#news">NEWS</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="main">
+      <section id="profile">
+        <h2>PROFILE</h2>
+        <div class="content">
+          <img src="img/かえる.png">
+          <div class="description">
+            <p>そだお</p>
+          </div>
+        </div>
+        <div class="btn">
+          <a href="">執筆中・・・</a>
+        </div>
+      </section>
+      <section id="games">
+        <h2>GAMES</h2>
+        <div class="game-items">
+          <a href="../soda04.github.io/ninja/index.html">
+            <div class="game">
+              <img src="img/ninja.png">
+              <h3>NINJA</h3>
+              <p>発射した球に乗り移れるよ！</p>
+            </div>
+          </a>
+          <a href="../soda04.github.io/p5js-games/index.html">
+            <div class="game">
+              <img src="img/flappybird.jpg">
+              <h3>FLAPPYBIRD</h3>
+              <p>障害物をよけて進もう！</p>
+            </div>
+          </a>
+          <a href="../soda04.github.io/blockgame/index.html">
+            <div class="game">
+              <img src="img/shooting.jpg">
+              <h3>SHOOTING</h3>
+              <p>空いているところを埋めよう！</p>
+            </div>
+        </div>
+        </a>
+        <div class="btn">
+          <a href="games.html">詳しくはこちらから</a>
+        </div>
+      </section>
+      <section id="pictures">
+        <h2>PICTURES</h2>
+        <div class="picture-items">
+          <a href="">
+            <div class="picture">
+              <img src="img/view.jpg">
+              <h3>VIEW</h3>
+              <p>風景</p>
+            </div>
+          </a>
+          <a href="">
+            <div class="picture">
+              <img src="img/plant.jpg">
+              <h3>FLOWER</h3>
+              <p>お花</p>
+            </div>
+          </a>
+          <a href="">
+            <div class="picture">
+              <img src="img/person.jpg">
+              <h3>PERSON</h3>
+              <p>人間</p>
+            </div>
+        </div>
+        </a>
+        <div class="btn">
+          <a href="pictures.html">詳しくはこちらから</a>
+        </div>
+      </section>
+      <section id="cookings">
+        <h2>COOKING</h2>
+        <div class="cooking-items">
+          <a href="">
+            <div class="cooking">
+              <img src="img/sweets.jpg">
+              <h3>お菓子</h3>
+              <p>お菓子</p>
+            </div>
+          </a>
+          <a href="">
+            <div class="cooking">
+              <img src="img/tyuuka.jpg">
+              <h3>中華</h3>
+              <p>中華</p>
+            </div>
+          </a>
+          <a href="">
+            <div class="cooking">
+              <img src="img/wasyoku.jpg">
+              <h3>和食</h3>
+              <p>和食</p>
+            </div>
+        </div>
+        </a>
+        <div class="btn">
+          <a href="cookings.html">詳しくはこちらから</a>
+        </div>
+      </section>
+      <section id="tutorial">
+        <h2>TOTURIAL</h2>
+        <div class="tutorial-items">
+          <a href="../soda04.github.io/tutorial/homepages.html">
+            <div class="tutorial">
+              <img src="img/tutorial1.png">
+              <h3>tutorial1</h3>
+              <p>1</p>
+            </div>
+          </a>
+          <a href="../Baby/index.html">
+            <div class="tutorial">
+              <img src="img/tutorial2.png">
+              <h3>tutorial2</h3>
+              <p>2</p>
+            </div>
+          </a>
+          <a href="../Dentest/index.html">
+            <div class="tutorial">
+              <img src="img/tutorial3.png">
+              <h3>tutorial3</h3>
+              <p>3</p>
+            </div>
+        </div>
+        </a>
+        <div class="btn">
+          <a href="tutorials.html">詳しくはこちらから</a>
+        </div>
+      </section>
+      <section id="news">
+        <h2>NEWS</h2>
+        <table>
+          <tr>
+            <th>2023/03/16</th>
+            <td>ウェブサイト更新。</td>
+          </tr>
+          <tr>
+            <th>2023/03/16</th>
+            <td>ウェブサイト更新。</td>
+          </tr>
+          <tr>
+            <th>2023/03/16</th>
+            <td>ウェブサイト更新。</td>
+          </tr>
+          <tr>
+            <th>2023/03/16</th>
+            <td>ウェブサイト更新。</td>
+          </tr>
+          <tr>
+            <th>2023/03/16</th>
+            <td>ウェブサイト更新。</td>
+          </tr>
+        </table>
+      </section>
+    </div>
+    <footer>
+      <div class="filter">
+        <img src="img/paper.jpg">
+      </div>
+      <div class="icons">
+        <a href="a"><img src="img/icon_facebook.png" alt=""></a>
+        <a href="b"><img src="img/icon_instagram.png" alt=""></a>
+        <a href="c"><img src="img/icon_line.png" alt=""></a>
+        <a href="d"><img src="img/icon_twitter.png" alt=""></a>
+        <a href="e"><img src="img/icon_youtube.png" alt=""></a>
+      </div>
+      <p><small>&copy;2023 SODAO'S ROOM</small></p>
+    </footer>
+  </main>
 </body>
 
 </html>
