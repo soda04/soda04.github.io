@@ -1,0 +1,155 @@
+/* template */
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Zen Maru Gothic', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(222, 84, 84);
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+img {
+  vertical-align: bottom;
+}
+
+/* header */
+
+header {
+  height: 100px;
+  background-color: #46965e;
+}
+
+.logo img {
+  width: 80px;
+  height: 80px;
+  float: left;
+  margin-left: 50px;
+  border-radius: 15px;
+  margin-top: 10px;
+  margin-right: 350px;
+}
+
+nav ul li {
+  display: flex;
+  justify-content: space-around;
+  float: left;
+  padding-top: 40px;
+  padding-left: 80px;
+  font-size: 25px;
+}
+
+/* title */
+
+.title {
+  margin-top: 70px;
+  margin-bottom: 40px;
+}
+
+.title h1 {
+  border-bottom: 1px solid #b1b1b1;
+}
+
+.title p {
+  margin-top: 30px;
+}
+
+/* info */
+
+.info {
+  display: flex;
+  margin-bottom: 40px;
+  height: auto;
+}
+
+.info img {
+  width: 30%;
+  height: auto;
+  margin-right: 10%;
+}
+
+.info .materials {
+  width: 30%;
+  font-size: 18px;
+  height: 330px;
+}
+
+.info .materials ul li {
+  width: 100%;
+  list-style: none;
+}
+
+.info .materials h2, .info .materials ul li {
+  padding: 10px 0;
+  border-bottom: 1px solid #b1b1b1;
+}
+
+.info .nutrients {
+  width: 30%;
+  font-size: medium;
+  text-align: center;
+}
+
+/* nutrients */
+
+.nutrients  ul {
+  height: 330px;
+  padding: 40px 0;
+}
+
+.nutrients ul li{
+  padding: 10px 10px;
+  list-style: none;
+}
+
+/* making */
+
+.making h2, .making ol li {
+  border-bottom: 1px solid #b1b1b1;
+}
+
+.making h2 {
+  font-size: 30px;
+  padding: 20px 0;
+}
+
+.making ol li {
+  height: 80px;
+  list-style-position: inside;
+  padding: 30px 30px;
+}
+
+/* point */
+
+.point {
+  display: flex;
+  margin: 80px 0;
+  align-items: center;
+}
+
+.point h2 {
+  padding: 1rem 2rem;
+  border: 3px dotted #000;
+}
+
+.point p {
+  margin-left: 100px;
+  font-size: 80px;
+  text-align: center;
+}
+
+.point p span {
+  background: linear-gradient(transparent 70%, #52FD4D 60%);
+  border-radius: 80% 50% 60% 5%/80% 75% 15% 75%;
+}
