@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&family=Stick+No+Bills:wght@500&display=swap');
 
 * {
   margin: 0;
@@ -47,7 +48,11 @@ nav ul li {
   float: left;
   padding-top: 40px;
   padding-left: 80px;
-  font-size: 20px;
+  font-size: 25px;
+}
+
+nav ul li a {
+  font-family: 'Stick No Bills', sans-serif;
 }
 
 /* title */
