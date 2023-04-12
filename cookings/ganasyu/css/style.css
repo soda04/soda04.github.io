@@ -80,8 +80,9 @@ nav ul li a {
 
 .info img {
   width: 30%;
-  height: auto;
+  height: 300px;
   margin-right: 10%;
+  border-radius: 10px;
 }
 
 .info .materials {
